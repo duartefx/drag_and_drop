@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drag and drop</title>
+</head>
+<body>
+    <h1>Relacione a Instituição com a descrição correspondente:</h1>
+
+<br>
+<table>
+<tr>
+    <th>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/sesi.jpg" draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31">
+      </div></th>
+    <th><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </th>
+    <th><p> É uma entidade criada para facilitar o diálogo do setor industrial com diferentes representantes do governo, sociedade e classe industrial. Ela sempre teve forte influência política, não somente no Estado de São Paulo, mas em todo o País.</p></th>
+</tr>
+<tr>
+    <th>
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/senai.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"> </div></th>
+    <th><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </th>
+    <th><p> Qualificam profissionais para atuarem em áreas do setor industrial como administração, alimentos, mecânica, automação, metalurgia, automobilística, construção civil, refrigeração, calçados, transporte e outras.</p></th>
+</tr>
+<tr>
+    <th><div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/fiesp.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31">
+      </div></th>
+      <th><div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div></th>
+      <th><p>Tem uma das maiores redes de ensino particular. Oferece as modalidades: Educação Infantil, Ensino Fundamental, Ensino Médio, Educação Profissional Técnica de Nível Médio e Educação de Jovens e Adultos.</p></th>
+</tr>
+</table>
+
+
+</body>
+</html>
